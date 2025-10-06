@@ -5,9 +5,12 @@ from keywords import extract_keywords
 from matcher import classify_and_score
 
 app = FastAPI()
+
+origins = ['http://localhost:5173', 'https://resume-tailor-at9k.onrender.com']
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # for MVP; tighten later
+    allow_origins = origins,  # for MVP; tighten later
     allow_methods=["*"],
     allow_headers=["*"],
 )

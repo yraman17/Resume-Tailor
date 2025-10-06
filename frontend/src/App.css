@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.logo {
+  margin: 24px auto 32px auto;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1.05;
+  font-size: clamp(48px, 7vw, 88px); /* responsive: small phones → 42px, large screens → 90px */
+  background: linear-gradient(90deg, #a78bfa 0%, #8b5cf6 40%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 3px 20px rgba(139, 92, 246, 0.25);
+  transition: all 0.25s ease;
+}
+
+.logo:hover {
+  transform: scale(1.02);
+  text-shadow: 0 4px 25px rgba(139, 92, 246, 0.35);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.greet { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+.highlight { color: var(--lavender-dark); }
+.contact-line { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 14px; }
+.contact-line .dot { color: #c9c9d6; }
+.missing { color: #a16207; font-style: italic; }
+.contact-link { color: var(--lavender-dark); text-decoration: underline; }
+.results-greeting {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.greeting-text {
+  font-size: 2rem;         /* slightly bigger than h2 */
+  font-weight: 700;
+  color: #1e1e2f;          /* dark neutral for balance */
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.highlight {
+  color: #7b5cff;          /* light purple accent */
+}
+

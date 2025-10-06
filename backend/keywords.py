@@ -55,8 +55,8 @@ def _is_techy(tok: str) -> bool:
         return True
     if tok in {"ci/cd", "rest/api", "graphql/api"}:
         return True
-    if any(ch in tok for ch in [".","+","#"]) and len(tok) > 1:
-        return True
+    # if any(ch in tok for ch in [".","+","#"]) and len(tok) > 1:
+    #     return True
     if tok.endswith(("sql","api","db")):
         return True
     return False

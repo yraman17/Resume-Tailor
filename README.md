@@ -30,6 +30,7 @@ It parses your resume, extracts your skills, compares them to keywords from a jo
 ---
 
 ## 🗂️ Project Structure
+```
 resume-tailor/
 ├── backend/
 │ ├── main.py # FastAPI entrypoint
@@ -50,6 +51,7 @@ resume-tailor/
 │
 ├── docker-compose.yml
 └── README.md
+```
 
 ## Future Enhancements
 

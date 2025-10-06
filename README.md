@@ -3,7 +3,7 @@
 **Live demo:** [https://resume-tailor-at9k.onrender.com](https://resume-tailor-at9k.onrender.com)
 
 Resume Tailor is an AI-powered web app that helps job seekers **optimize their resumes for specific job descriptions**.  
-It parses your resume, extracts your skills, compares them to keywords from a job description, and gives tailored feedback — so you know exactly what to improve before applying.
+It parses your resume, extracts your skills, compares them to keywords from a job description, and gives tailored feedback, so you know exactly what to improve before applying.
 
 ---
 

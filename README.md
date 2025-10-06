@@ -1,4 +1,4 @@
-Resume Tailor
+## Resume Tailor
 
 **Live demo:** [https://resume-tailor-at9k.onrender.com](https://resume-tailor-at9k.onrender.com)
 
@@ -55,13 +55,13 @@ resume-tailor/
 
 ## Future Enhancements
 
-  Use AI models (OpenAI / Hugging Face) for deeper semantic keyword matching.
+- Use AI models (OpenAI / Hugging Face) for deeper semantic keyword matching.
   
-  Support DOCX resumes and multiple file formats.
-  
-  Store past analyses and feedback history.
-  
-  Add authentication for returning users.
-  
-  Improve keyword weighting and recommendations.
+- Support DOCX resumes and multiple file formats.
+
+- Store past analyses and feedback history.
+
+- Add authentication for returning users.
+
+- Improve keyword weighting and recommendations.
 

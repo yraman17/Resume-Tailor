@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { analyzeResume } from "./api";
 import ScoreBar from "./components/ScoreBar";
 import TagList from "./components/TagList";
@@ -23,6 +23,11 @@ export default function App() {
   const [error, setError] = useState("");
   const [dragOver, setDragOver] = useState(false);
   const inputRef = useRef(null);
+
+  // Set the page title
+  useEffect(() => {
+    document.title = "Resume Tailor";
+  }, []);
 
   const onDrop = (e) => {
     e.preventDefault();

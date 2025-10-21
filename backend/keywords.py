@@ -21,18 +21,45 @@ ALIASES = {
 
 # Whitelist of tech words we care about (expand anytime)
 TECH_SET = {
-    "python","javascript","typescript","react","node","express","fastapi","django","flask",
-    "aws","gcp","azure","docker","kubernetes","k8s","terraform","ansible","ci-cd",
-    "sql","postgres","mysql","mongodb","redis","graphql","rest",
-    "java","spring","kotlin","go","golang","rust","php","ruby","dotnet","c","c++","c#",
-    "pandas","numpy","pytorch","tensorflow","scikit-learn","sklearn","spark","airflow","dbt",
-    "excel","tableau", "backend", "frontend", "full-stack"
+    # 🧠 Programming Languages
+    "python","javascript","typescript","java","kotlin","scala","swift","objective-c",
+    "c","c++","c#","go","golang","rust","php","ruby","perl","r","dart","elixir","lua",
+    "bash","shell","powershell",
+    "react","reactnative","nextjs","vue","nuxt","angular","svelte","solidjs",
+    "node","express","fastapi","django","flask","spring","springboot","laravel",
+    "symfony","rails","asp.net","dotnet","phoenix","deno","remix",
+    "aws","gcp","azure","digitalocean","heroku","vercel","netlify",
+    "docker","kubernetes","k8s","helm","terraform","ansible","puppet","chef","vagrant",
+    "jenkins","github-actions","gitlab-ci","circleci","travisci","argo","tekton","spinnaker",
+    "ci-cd","prometheus","grafana","datadog","newrelic","splunk","elk","efk",
+    "sql","postgres","mysql","sqlite","mariadb","oracle","mssql",
+    "mongodb","redis","dynamodb","cassandra","elasticsearch","opensearch","neo4j",
+    "couchdb","influxdb","snowflake","bigquery","redshift","clickhouse","duckdb","firestore",
+    "airflow","dbt","spark","hadoop","beam","kafka","kinesis","flink","databricks","presto","trino","hive",
+    "pandas","numpy","scipy","matplotlib","seaborn","plotly","polars","powerbi","tableau","looker","excel",
+    "pytorch","tensorflow","keras","sklearn","scikit-learn","xgboost","lightgbm","catboost",
+    "opencv","huggingface","transformers","langchain","llamaindex","mlflow","onnx","ray","gradio",
+    "data-science","machine-learning","deep-learning","nlp","computer-vision",
+    "oauth","jwt","ssl","tls","sso","openid","auth0","okta","firewall","vpn",
+    "wireshark","nmap","burpsuite","zap","iam","waf","load-balancer","reverse-proxy",
+    "rest","graphql","grpc","websocket","soap",
+    "git","github","gitlab","bitbucket","jira","confluence","slack",
+    "linux","unix","macos","windows","bash","zsh","vim","emacs","vscode","intellij",
+    "postman","curl","swagger","openapi","json","yaml","toml","xml","csv",
+    "microservices","serverless","monorepo","api","sdk","cli",
+    "html","css","sass","less","tailwind","bootstrap","materialui","mui","chakra","antdesign","storybook",
+    "webpack","vite","babel","eslint","jest","cypress","playwright","testing-library",
+    "nginx","apache","haproxy","traefik","consul","vault","nomad","zookeeper",
+    "prometheus","grafana","datadog","sentry","newrelic","elastic","graylog",
+    "openai","chatgpt","llama","mistral","claude","gemini","vector-db","pinecone","weaviate","chromadb","faiss","rag","embedding",
+    "backend","frontend","full-stack","fullstack","devops","mlops","data-engineering"
 }
+
 
 # Phrases we want to keep intact if present
 PHRASES = [
     "machine learning","data science","data engineering","computer vision",
-    "rest api","continuous integration","continuous delivery","continuous deployment", "full stack"
+    "rest api","continuous integration","continuous delivery","continuous deployment", "full stack", "data structures", 
 ]
 
 def _normalize(s: str) -> str:

@@ -96,7 +96,7 @@ def _extract_phrases(text: str) -> List[str]:
             hits.append(_apply_alias(p))
     return hits
 
-def extract_keywords(job_text: str, max_k: int = 20,
+def extract_keywords(job_text: str, max_k: int = 50,
                      custom_keywords: Optional[List[str]] = None) -> List[str]:
     """
     Return a simple ordered list of core JD keywords (strings), length <= max_k.

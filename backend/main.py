@@ -22,7 +22,7 @@ def health():
 @app.post("/analyze")
 async def analyze(resume_file: UploadFile = File(...),
                   job_text: str = Form(...),
-                  max_k: int = Form(10)):
+                  max_k: int = Form(50)):
     pdf_bytes = await resume_file.read()
     parsed = parse_pdf_resume(pdf_bytes, filename=resume_file.filename)
 

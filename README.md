@@ -25,7 +25,7 @@ It parses your resume, extracts your skills, compares them to keywords from a jo
 | **Backend** | FastAPI (Python 3.12) |
 | **Parsing** | PyPDF2, Regular Expressions |
 | **Infra / DevOps** | Docker, Render |
-| **Language Models** | Simple keyword extraction via regex + scoring logic (lightweight MVP approach) |
+| **Language Models** | Simple keyword extraction via regex + scoring logic |
 
 ---
 
